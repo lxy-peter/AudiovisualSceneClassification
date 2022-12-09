@@ -8,8 +8,14 @@ mkdir image_model multi_model sound_model
 git clone https://github.com/speedyseal/audiosetdl
 cd audiosetdl
 ```
-2. Follow the instructions at https://github.com/speedyseal/audiosetdl to install dependencies. Then, run:
+2. Follow the instructions at https://github.com/speedyseal/audiosetdl to install dependencies. The next step is to run `download_audioset.py`, but a common error is for the program to locate `ffmpeg` and/or `ffprobe`. To run successfully, you may have to edit `download_audioset.py` and specify the correct default value for argument corresponding to paths of these executables. Then, proceed with:
 ```
 python download_audioset.py dataset
 ```
-  A common error is locating `ffmpeg` and/or `ffprobe`. You may have to edit `download_audioset.py` and specify the correct default value for argument corresponding to paths of these executables.
+3. Run:
+```
+mkdir dataset/data/eval_segments/image
+mkdir dataset/data/eval_segments/audio_wav
+cd ..
+```
+4.
