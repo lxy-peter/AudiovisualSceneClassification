@@ -12,4 +12,4 @@ cd audiosetdl
 ```
 python download_audioset.py dataset
 ```
-A common error is locating `ffmpeg` and/or `ffprobe`. You may have to edit `download_audioset.py` and specify the correct default value for argument corresponding to paths of these executables.
+  A common error is locating `ffmpeg` and/or `ffprobe`. You may have to edit `download_audioset.py` and specify the correct default value for argument corresponding to paths of these executables.
