@@ -17,5 +17,7 @@ python download_audioset.py dataset
 mkdir dataset/data/eval_segments/image
 mkdir dataset/data/eval_segments/audio_wav
 cd ..
+mv tmp/* audiosetdl/dataset/data/eval_segments/
+python get_images.py
+python convert_audio.py
 ```
-4.
