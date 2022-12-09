@@ -29,4 +29,4 @@ To train the image model, multimodal model, or sound model, simply run `image_tr
 
 ## Inference
 
-To use the image model, multimodal model, or sound model to predict on the test, simply run `image_predict.py`, `multi_predict.py`, or `sound_predict.py`, respectively. To predict on the validation set, edit the Python file corresponding to the model you wish to run, and change `'test'` to `'dev'`. Results will be saved to the model directory.
+To use the image model, multimodal model, or sound model to predict on the test, simply run `image_predict.py`, `multi_predict.py`, or `sound_predict.py`, respectively. You can change the last line of each of these scripts to specify the epoch you would like to use. To predict on the validation set, edit the Python file corresponding to the model you wish to run, and change `'test'` to `'dev'`. Results will be saved to the model directory.
